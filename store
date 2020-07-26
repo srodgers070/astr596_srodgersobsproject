@@ -1,0 +1,31 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Jul 26 16:03:36 2020
+
+@author: Spencer Rodgers
+
+
+"""
+
+import numpy as np
+import os
+import os.path
+import matplotlib as plt
+
+
+
+def LineFitter(filename):
+    data_array=np.loadtxt(filename,skiprows=1)
+    print(data_array)
+    print("data has been loaded, fitting and plotting...")
+    x_values=data_array(:,0)
+    y_values=data_array(:,1)
+    
+    
+    
+    
+    
+    plt.figure(figsize=(20,10))
+    plt.xlabel('x values')
+    plt.ylabel('y values')
+    plt.plot()
